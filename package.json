@@ -3,7 +3,7 @@
   "description": "🌒 A React Hook to handle the dark/light mode theme using Tailwind4 CSS and localStorage.",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Gabriel117343/react-tailwind4-theme"
    },
 
   "keywords": [
@@ -19,7 +19,7 @@
     "hook",
     "Tailwind CSS v4"
   ],
-  "version": "0.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   
   "main": "dist/index.js",
