@@ -1,0 +1,84 @@
+{
+
+  "description": "🌒 A React Hook to handle the dark/light mode theme using Tailwind4 CSS and localStorage.",
+  "repository": {
+    "type": "git",
+    "url": ""
+   },
+
+  "keywords": [
+    "react",
+    "useHandleTheme",
+    "useTheme",
+    "useThemeHook",
+    "tailwind",
+    "theme",
+    "dark",
+    "light",
+    "localStorage",
+    "hook",
+    "Tailwind CSS v4"
+  ],
+  "version": "0.1.0",
+  "license": "MIT",
+  
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "react-tailwind4-theme",
+  "author": "Gabriel S.",
+  "module": "dist/react-tailwind4-theme.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/react-tailwind4-theme.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/react-tailwind4-theme.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^11.2.0",
+    "@types/react": "^19.1.1",
+    "@types/react-dom": "^19.1.2",
+    "husky": "^9.1.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "size-limit": "^11.2.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.8.1",
+    "typescript": "^3.9.10",
+    "vitest": "^3.0.8",
+    "@testing-library/react": "^16.2.0"
+  }
+}
