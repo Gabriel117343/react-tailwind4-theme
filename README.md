@@ -1,6 +1,6 @@
 [![React](https://img.shields.io/badge/React-18.2.0+-blue.svg?style=flat-square)](https://reactjs.org/)  
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind%20CSS-v4-blue.svg?style=flat-square)](https://tailwindcss.com/)  
-[![Version](https://img.shields.io/badge/Version-1.8-orange.svg?style=flat-square)](https://github.com/your-repo/react-tailwind-theme)  
+[![Version](https://img.shields.io/badge/Version-1.8-orange.svg?style=flat-square)](https://github.com/your-repo/react-tailwind4-theme)  
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
 # React Tailwind4 Theme 🚀
